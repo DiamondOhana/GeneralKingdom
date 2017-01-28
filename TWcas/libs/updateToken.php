@@ -1,5 +1,5 @@
 <?php
-function getToken($clientId, $clientSecret, $callbackUrl) {
+function updateToken($clientId, $clientSecret, $callbackUrl) {
   $state = 'hoge';
 
   //session_start();
