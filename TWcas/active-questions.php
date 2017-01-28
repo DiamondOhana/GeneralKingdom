@@ -1,6 +1,7 @@
 <?php
 
-require "getToken.php";
+require "libs/getToken.php";
+require "libs/getUsername.php";
 
 $clientId = '81534202.8b97503a01e9021c236295ce656ee6b653ef7c7601c04f2b26309fb3c77baa16';
 $clientSecret = 'ef164d71f72c04046c93d82442aefed1986ee6ac4eba25342861b47612d891fa';
@@ -40,7 +41,7 @@ $requestPref = stream_context_create(array(
 <html lang=“ja”>
 <head>
     <meta charset=“UFT-8”>
-    <title>TWcas袋</title>
+    <title><?php echo getUserName($token); ?>さんのTWcas袋</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="sp_base.css">
 
