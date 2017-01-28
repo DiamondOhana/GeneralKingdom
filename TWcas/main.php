@@ -24,13 +24,14 @@ if (strtotime($expireDate) < strtotime($now->format('Y-m-d H:i:s'))) {
 $tokenFile = './conf/token.txt';
 $token = file_get_contents($tokenFile);
 
+function searchActiveLive($tag) {
+  global $token;
+  return searchLive($token, $tag);
+}
 
-//If you wanna search active live
-$tag = "顔出し";
-$result = searchLive($token, $tag);
+function showName() {
+  global $token;
+  return getUsername($token);
+}
 
-
-//If you wanna get username
-//$result = getUsername($token);
-
-var_dump($result);
+var_dump(showName());
