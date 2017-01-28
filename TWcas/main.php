@@ -33,5 +33,3 @@ function showName() {
   global $token;
   return getUsername($token);
 }
-
-var_dump(showName());
