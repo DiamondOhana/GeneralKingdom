@@ -53,9 +53,9 @@
         <nav>
             <ul style="list-style:none;">
                 <li class="sp-nav-icon sp-logo"><a href="index.php"><img src="bird.png" width="170"></a></li>
-                <li class="sp-nav-menu"><a href="active-questions.php">質問一覧</a></li>
-                <li class="sp-nav-menu"><a href="ask-question.html">質問する</a></li>
                 <li class="sp-nav-menu"><a href="hello.php">ようこそ</a></li>
+                <li class="sp-nav-menu"><a href="active-questions.php">質問一覧</a></li>
+                <li class="sp-nav-menu"><a href="ask-question.php">質問する</a></li>
             </ul>
         </nav>
     </div>

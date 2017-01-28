@@ -36,13 +36,13 @@ require "main.php"
             $live = $movieData;
 
             for ($i = 0; $i < 30; $i++) {
+                echo "<div class=\"movie-content\">";
                 $liveUrl = $live["movies"][$i]["movie"]["link"];
                 $liveTitle = $live["movies"][$i]["movie"]["title"];
                 $liveUrl = $liveUrl . "/embed/live-320-0";
                 echo "<div class=\"movie-title\">";
                 echo $liveTitle;
                 echo "</div>";
-                echo "<div class=\"movie-frame\">";
                 echo "<script type=\"text/javascript\"  src=\"$liveUrl\"></script>";
                 echo "</div>";
             }

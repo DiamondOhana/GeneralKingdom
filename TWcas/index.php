@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang=“ja”>
 <head>
@@ -11,51 +9,57 @@
 
 <!-- pc -->
 <div class="pc-only">
-<body>
-<div class=header>
-    <div class=header-child>
+ <body>
+  <div class=header>
+      <div class=header-child>
         <div class=header-menu><a href="index.php" class=link1>ホーム</a></div>
-        <div class=header-menu><a href="ask-question.php" class=link1>質問する</a></div>
-        <div class=header-menu><a href="active-questions.php" class=link1>質問を探す</a></div>
         <div class=header-menu><a href="hello.php" class=link1>ようこそ</a></div>
+        <div class=header-menu><a href="active-questions.php" class=link1>質問一覧</a></div>
+        <div class=header-menu><a href="ask-question.php" class=link1>質問する</a></div>
+      </div>
     </div>
-</div>
 
-<div class=main>
-    <div class=main-section>
-        <div class=main-section-title>
+    <div class=main>
+      <div class=main-section>
+          <div class=main-section-title>
             <p>ツイキャス使って問題解決！</p>
-            <h1>ツイキャス知恵袋</h1>
+            <h1>TWcas袋</h1>
             <img src="logo.png" width="200" height=auto >
-        </div>
-    </div>
-    <div class=sub-section1>
-        <div class=subsection-boxes>
+          </div>
+      </div>
+      <div class=sub-section1>
+          <div class=subsection-boxes>
+            <a href="ask-question.php"></a>
             <ul class=subsection-boxes-box>
-                <p class="section-p">ツイキャス知恵袋って何？</p>
+              <li class="section-li-1">TWcas袋って何？</li>
+              <li class="section-li-2"><img src="human.jpg" width=auto; height="340pt";></li>
+            </ul>
+          </div>
+      </div>
+      <div class=sub-section2>
+        <div class=subsection-boxes>
+          <a href="ask-question.php"></a>
+          <ul class=subsection-boxes-box>
+            <li class="section-li-2"><img src="hikidashi.jpg" width=auto; height="340pt";></li>
+            <li class="section-li-1">質問一覧はこちら！</li>
+          </ul>
         </div>
-    </div>
-</div>
-<div class=sub-section2>
-    <div class=subsection-boxes>
-        <div class=subsection-boxes-box>
-            <p class="section-p">質問してみよう！</p>
-            <div class="button-box"><input class="button-normal" type="button" onclick="location.href='allq.html'"value="Click!"></div>
+      </div>
+      <div class=sub-section1>
+        <div class=subsection-boxes>
+          <a href="ask-question.php"></a>
+          <ul class=subsection-boxes-box>
+            <li class="section-li-1">質問してみよう！</li>
+            <li class="section-li-2"><img src="hirameki.jpg" width=auto; height="340pt";></li>
+          </ul>
         </div>
+      </div>
     </div>
+ </body>
 </div>
-<div class=sub-section1>
-    <div class=subsection-boxes>
-        <div class=subsection-boxes-box>
-            <p class="section-p">質問を探してみよう！</p>
-        </div>
-    </div>
-</div>
-</div>
-</body>
-</div>
-
 <!-- pc -->
+
+
 <!-- sp -->
 <div class="sp-only">
 <div id="sp-header">
